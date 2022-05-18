@@ -89,3 +89,59 @@ color: #FAFF00;
 font-size: 20px; 
 box-sizing: content-box;
 }
+
+/* our top movers */
+
+.top {
+    width: 1350px;
+    height: 1000px;
+    background-color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    position: left ;
+    
+}
+
+
+.top-movers{
+background-color: #f3f0ed;
+padding: 10vw;
+font-family: 'Adamina', serif;
+}
+
+
+
+.top-movers .top-movers-header{
+font-size: 4vw;
+}
+
+.images-sec {
+position: relative;
+display: flex;
+justify-content: space-between;
+margin-top: 10vw;
+}
+
+
+.two {
+margin-top: 3vh;
+}
+
+.movers-images1 {
+background-color: white;
+width: 25vw;
+border-radius: 3vh;
+}   
+
+.movers-images1 img{
+width: 25vw;
+height: auto;
+}
+
+.movers-images1 .image-caption{
+font-size: 2vw;
+padding: 1.5vw;
+}
+
+
