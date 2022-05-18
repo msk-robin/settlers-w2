@@ -28,3 +28,33 @@ nav>.thelinks>ul>li {
     display: flex;
     justify-content: space-between;
 }
+ /* footer */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#footer {
+    color: white;
+    background-image: linear-gradient(to right top, #000000, #030202, #20100b, #351e0b, #644203);
+    /* background: linear-gradient(1deg, rgba(166,166,166,1) 0%, rgba(255,255,255,1) 29%); */
+    padding: 4cm;
+}
+
+#footer>.row {
+    display: flex;
+}
+
+#footer>.row>.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+#footer>.row>.column>ul>li {
+    list-style: none;
+}
