@@ -144,4 +144,36 @@ font-size: 2vw;
 padding: 1.5vw;
 }
 
-
+/* foooter section */
+footer {
+    width: 80%;
+    max-height: 90vh;
+    background-color: black;
+    color: white;
+    padding: 0 10vw;
+    font-family: 'Actor', sans-serif;
+  }
+  .footer-header p{
+    font-size: 3vw;
+    padding: 6vw;
+    border-botton: 1px solid #5c5b5a;
+  }
+  
+  
+  
+  
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .footer-list ul{
+    list-style: none;
+  }
+  
+  .footer-list ul li{
+    color: #887f7f;
+    font-size: 1.2vw;
+    padding-top: 1rem;
+  }
